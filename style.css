@@ -1,0 +1,57 @@
+body{
+  background-color: #466ec9;
+}
+.container{
+  text-align: center;
+  
+}
+.head{
+  color: #e3d7d7;
+  font-size: 80px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Logo{
+  width: 80px;
+  height: 80px;
+}
+.Drums{
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  text-align: center;
+}
+.drum{
+  width: 130px;
+  height: 130px;
+  border: 10px solid rgb(100, 71, 167);
+  margin: 9px;
+  border-radius: 8px;
+  font-size: 80px;
+}
+footer{
+  text-align: center;
+  display: block;
+  margin-top: 200px;
+}
+.w{
+  background-image: url(./image/tom1.png);
+}
+.a{
+  background-image: url(./image/tom2.png);
+}
+.s{
+  background-image: url(./image/tom3.png);
+}
+
+.d{
+  background-image: url(./image/tom4.png);
+}
+.j{
+  background-image: url(./image/snare.png);
+}
+.k{
+  background-image: url(./image/crash.png);
+}
+.l{
+  background-image: url(./image/kick.png);
+}
