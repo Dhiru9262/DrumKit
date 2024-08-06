@@ -9,11 +9,13 @@ for (let index = 0; index < document.querySelectorAll(".drum").length; index++) 
 function handleClick() {
 var buttonInnerHtml=this.innerHTML;
 makeSound(buttonInnerHtml);
+   ButtonAnnimation(buttonInnerHtml);
 }
 
 // this code is for make the sound from keyboad;
 document.addEventListener("keypress",function(event){
   makeSound(event.key);
+  ButtonAnnimation(event.key);
 })
 
 function makeSound(key) {
@@ -56,4 +58,11 @@ function makeSound(key) {
     default:
       break;
   }
+}
+
+function ButtonAnnimation(currentKey) {
+  document.querySelector("."+currentKey).classList.add("press");
+  setTimeout(function(){
+    document.querySelector("."+currentKey).classList.remove("press");
+  },200);
 }
