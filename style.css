@@ -55,3 +55,8 @@ footer{
 .l{
   background-image: url(./image/kick.png);
 }
+
+.press{
+  box-shadow: 0 3px 4px 0 #ffd894;
+  opacity: .5;
+}
